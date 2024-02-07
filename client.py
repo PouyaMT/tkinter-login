@@ -16,7 +16,7 @@ def login():
         if result == "Success":
             message_label_login.config(text="Success", fg="#358F4B")
         else:
-            message_label_login.config(text="Incorrect details", fg="#A83232")
+            message_label_login.config(text="Invalid credentials", fg="#A83232")
     else:
         message_label_login.config(text="Missing details", fg="#A83232")
 
