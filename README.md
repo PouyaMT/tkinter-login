@@ -1,15 +1,15 @@
 # Tkinter Login
-A Python GUI program built using the tkinter library with a client-server architecture for user authentication and registration using SQLite for database management.
+A Python GUI program built using the Tkinter library with a client-server architecture for user authentication and registration using SQLite for database management.
 
 ## Screenshots
 <img src="screenshots/login.png" alt="Login" width="200"/> <img src="screenshots/signup.png" alt="Sign Up" width="200"/>
 
 ## Dependencies
-* tkinter
-* sqlite3
-* socket
-* threading
 * hashlib
+* socket
+* sqlite3
+* threading
+* tkinter
 
 ## Installation
 **1. Clone the repository**
